@@ -61,6 +61,7 @@ export default function Home() {
 
           <div className="bg-green-700 p-8 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold text-gold-400 mb-6">Create Your Digital Coat of Arms</h2>
+            <p className="text-gold-200 mb-4">Join us in celebrating this fusion of history and technology, and let's build a future where integrity and transparency are at the forefront of the digital world!</p>
             <Link
               href="/create"
               className="inline-block bg-gold-500 text-green-900 px-6 py-3 rounded-lg hover:bg-gold-400 transition-colors font-semibold"
