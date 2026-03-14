@@ -16,8 +16,8 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative overflow-hidden">
-        <div className="text-center mb-12 relative z-10">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-indigo-800 mb-4">Digital Coats of Arms</h1>
           <p className="text-xl text-gray-600 mb-8">Certified by Herbowicz lineage</p>
         </div>
@@ -72,18 +72,12 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-white border-t border-gray-200 mt-12 py-6 relative z-10">
+      <footer className="bg-white border-t border-gray-200 mt-12 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500">
           <p>© {new Date().getFullYear()} Coat.digital. All rights reserved.</p>
         </div>
       </footer>
-      <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute -inset-x-10 -inset-y-20 opacity-30">
-          <div className="absolute top-0 left-0 w-96 h-96 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
-          <div className="absolute top-0 right-0 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
-        </div>
-      </div>
+
     </div>
   );
 }
