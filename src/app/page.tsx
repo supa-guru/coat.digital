@@ -6,7 +6,7 @@ export default function Home() {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center">
-            <img src="/logo.jpeg" alt="Coat.digital Logo" className="h-8 w-auto" />
+            <img src="/herbowicz/coat-bw-herbowicz.jpeg" alt="Coat.digital Logo" className="h-10 w-auto rounded shadow-sm grayscale hover:grayscale-0 transition-all duration-300" />
             <span className="ml-3 text-xl font-bold text-indigo-600">Coat.digital</span>
           </div>
           <nav className="flex space-x-4">
@@ -46,15 +46,46 @@ export default function Home() {
 
           <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200">
             <h2 className="text-2xl font-semibold text-indigo-700 mb-4">Herbowicz Lineage</h2>
-            <div className="space-y-4 text-gray-700">
+            <div className="space-y-6 text-gray-700">
+              <div className="flex flex-col sm:flex-row gap-4 mb-6">
+                <div className="flex-1">
+                  <img
+                    src="/herbowicz/coat-herbowicz.jpeg"
+                    alt="Herbowicz Coat of Arms in Color"
+                    className="w-full h-auto rounded-lg shadow-md border border-gray-100"
+                  />
+                  <p className="text-sm text-center mt-2 text-gray-500 italic">Traditional Herbowicz Arms</p>
+                </div>
+                <div className="flex-1">
+                  <img
+                    src="/herbowicz/coat-bw-herbowicz.jpeg"
+                    alt="Herbowicz Coat of Arms in Black and White"
+                    className="w-full h-auto rounded-lg shadow-md border border-gray-100"
+                  />
+                  <p className="text-sm text-center mt-2 text-gray-500 italic">B&W Heraldic Reference</p>
+                </div>
+              </div>
+
+              <div className="bg-indigo-50 p-5 rounded-lg border-l-4 border-indigo-500 shadow-sm">
+                <h3 className="text-lg font-bold text-indigo-800 mb-3">Heraldic Blazonry</h3>
+                <div className="space-y-3">
+                  <p className="text-sm leading-relaxed">
+                    <strong>Shield:</strong> Vert (Green), a majestic central cross patonce Or (Gold), surrounded by four smaller crosses patonce in each canton (corner). These five crosses represent the unified strength and far-reaching influence of the clan.
+                  </p>
+                  <p className="text-sm leading-relaxed">
+                    <strong>Crest:</strong> A Golden Eagle's head erased, Or, symbolizing vision and sovereign authority. The eagle is crowned with a Polish noble's coronet, itself ensigned with a sixth cross patonce at its peak, marking the ultimate seal of divine honor and responsibility.
+                  </p>
+                  <p className="text-sm leading-relaxed bg-white/50 p-2 rounded">
+                    <strong>The Six Crosses:</strong> Together, the five crosses on the shield and the single cross atop the crown signify a total of six marks of excellence—representing the lineage's historic role as the supreme registrars of reputation.
+                  </p>
+                </div>
+              </div>
+
               <p>
                 The Herbowicz lineage is steeped in history, tracing back to the Polish-Lithuanian Commonwealth where they played a pivotal role in the creation and maintenance of Heraldic Clans. These clans were not just symbols but a system of identity and honor, binding families together under a shared emblem and code of conduct.
               </p>
               <p>
                 As the original registrars of reputation, the Herbowicz ensured that every Coat of Arms was a verified testament to a group's standing and adherence to the laws of the Commonwealth. This legacy of integrity and verification continues today, as we bring the art of heraldry into the digital age.
-              </p>
-              <p>
-                At Coat Digital, we honor this heritage by creating digital Coats of Arms that embody the same principles of integrity and transparency. Our platform is designed to help modern corporations and individuals navigate the complexities of the digital world with a foundation of ethical alignment and responsible governance.
               </p>
             </div>
           </div>

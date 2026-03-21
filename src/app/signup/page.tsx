@@ -5,7 +5,7 @@ export default function SignupPage() {
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <div className="text-center mb-6">
-          <img src="/logo.png" alt="Coat.digital Logo" className="mx-auto h-16 w-16 mb-4" />
+          <img src="/herbowicz/coat-bw-herbowicz.jpeg" alt="Coat.digital Logo" className="mx-auto h-16 w-auto mb-4 rounded shadow-sm grayscale hover:grayscale-0 transition-all duration-300" />
           <h1 className="text-2xl font-bold mb-4">Sign Up for Coat.digital</h1>
         </div>
         <form className="space-y-4">

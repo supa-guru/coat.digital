@@ -4,7 +4,7 @@ export default function CreatePage() {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center">
-            <img src="/logo.png" alt="Coat.digital Logo" className="h-8 w-auto" />
+            <img src="/herbowicz/coat-bw-herbowicz.jpeg" alt="Coat.digital Logo" className="h-10 w-auto rounded shadow-sm grayscale hover:grayscale-0 transition-all duration-300" />
             <span className="ml-3 text-xl font-bold text-gray-900">Coat.digital</span>
           </div>
           <nav className="flex space-x-4">
@@ -17,7 +17,14 @@ export default function CreatePage() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Create Your Digital Coat of Arms</h1>
-          <p className="text-xl text-gray-600 mb-8">Certified by Herbowicz lineage</p>
+          <div className="flex flex-col items-center mb-8">
+            <img
+              src="/herbowicz/coat-herbowicz.jpeg"
+              alt="Herbowicz Heritage Seal"
+              className="h-24 w-auto rounded-lg shadow-sm border border-gray-200 mb-4"
+            />
+            <p className="text-xl text-gray-600">Certified by Herbowicz lineage</p>
+          </div>
 
           <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-4">Design Your Coat of Arms</h2>
