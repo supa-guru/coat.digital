@@ -1,10 +1,12 @@
+import { Suspense } from 'react';
 import Link from 'next/link';
 import { createClient } from '@/utils/supabase/server'
 import { cookies } from 'next/headers'
+import { AuthButton } from '@/components/auth-button';
 
 export default async function Page() {
   const cookieStore = await cookies()
-  const supabase = createClient(cookieStore)
+  const supabase = await createClient(cookieStore)
 
   const { data: todos } = await supabase.from('todos').select()
 
@@ -22,6 +24,10 @@ export default async function Page() {
           </nav>
         </div>
       </header>
+
+      <Suspense>
+        <AuthButton />
+      </Suspense>
 
       <ul>
         {todos?.map((todo) => (
