@@ -18,22 +18,19 @@ export default async function Page() {
             <img src="/herbowicz/coat-bw-herbowicz.jpeg" alt="Coat.digital Logo" className="h-10 w-auto rounded" />
             <span className="ml-3 text-xl font-bold text-indigo-600">Coat.digital</span>
           </div>
-          <nav className="flex space-x-4">
-            <Link href="/login" className="text-indigo-600 hover:text-indigo-800">Login</Link>
-            <Link href="/signup" className="text-indigo-600 hover:text-indigo-800">Sign Up</Link>
+          <nav className="flex space-x-4">      
+            <Suspense>
+              <AuthButton />
+            </Suspense>
           </nav>
         </div>
       </header>
 
-      <Suspense>
-        <AuthButton />
-      </Suspense>
-
-      <ul>
+      {/* <ul>
         {todos?.map((todo) => (
           <li key={todo.id}>{todo.name}</li>
         ))}
-      </ul>
+      </ul> */}
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-16">
